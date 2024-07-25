@@ -1,0 +1,6 @@
+[build]
+  command = "ng build --prod"
+  publish = "dist/firebase-ng"
+
+[build.environment]
+  NODE_ENV = "production"
